@@ -167,10 +167,10 @@ def step(self) -> List[RequestOutput]:
 - 多个请求的batch处理
 
 详细解析: 
-- [→ Engine Step方法深度解析](engine-step-analysis.md)
-- [→ Step方法技术细节深入解析](step-technical-details.md)
-- [→ **Step源代码逐行解析**](step-source-code-analysis.md) ⭐
-- [→ Step使用示例代码](examples/step_usage_example.py)
+- [→ Engine Step方法深度解析](docs/engine/engine-step-analysis.md)
+- [→ Step方法技术细节深入解析](docs/engine/step-technical-details.md)
+- [→ **Step源代码逐行解析**](docs/engine/step-source-code-analysis.md) ⭐
+- [→ Step使用示例代码](src/engine/step_usage_example.py)
 
 ### 2. Scheduler (调度器)
 **位置**: `vllm/core/scheduler.py`
